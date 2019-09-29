@@ -1,0 +1,6 @@
+Na potrzeby tego testu stworzyłem dwa konta pocztowe w serwisie Interia.pl
+
+Przebieg testu:
+- program rozpoczyna działanie na stronie głównej Interia.pl, jest tutaj piewsza asercja sprawdzająca czy jesteśmy w odpowiednim miejscu
+- logujemy się do pierwszego konta, tworzymy nową wiadomość, wypełniamy ją danymi, wysyłamy na adres drugiego konta, wylogowujemy się
+- logujemy się do drugiego konta, otwieramy wiadomość - następuje asercja sprawdzamy czy odebrane dane są zgodne z wysłanymi, usuwamy wiadomość
